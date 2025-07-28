@@ -31,9 +31,7 @@ body {
     height: auto;
 }
 
-.row {
-    display: flex;
-}
+/*Jumbotron*/
 
 .container {
     width: 70%;
@@ -42,10 +40,18 @@ body {
     border-style: dashed;
 }
 
+.row {
+    display: flex;
+}
+
 .col-sx {
     width: 70%;
     min-height: 150px;
     border-style: dashed;
+}
+
+.img-from-youtube {
+    
 }
 
 .col-dx {
@@ -54,10 +60,31 @@ body {
     border-style: dashed;
 }
 
+/*Nav*/
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.socials a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Info*/
+
+.tags {
+    height: 50px;
+    border-style: dashed;
+}
+
 /*RESPONSIVE-BODY (only for Tablet)*/
 
 /*RESPONSIVE-BODY (only for Smartphone)*/
-
 
 /*FOOTER*/
 footer {
@@ -95,7 +122,7 @@ footer {
     list-style-type: none;
 }
 
-a {
+.company-faq a {
     color: white;
 }
 
