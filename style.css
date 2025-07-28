@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/*UTILITY*/
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
 /*HEADER*/
 
 header {
@@ -50,8 +57,9 @@ body {
     border-style: dashed;
 }
 
-.img-from-youtube {
-    
+#tiramisu-from-youtube {
+    height: 100%;
+    width: 100%;
 }
 
 .col-dx {
@@ -82,7 +90,35 @@ body {
     border-style: dashed;
 }
 
+.float-sx {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 240px;
+    height: 150px;
+}
+
 /*RESPONSIVE-BODY (only for Tablet)*/
+
+@media screen and (max-width:768px) {
+    
+    .container {
+        margin-inline: 20px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-sx {
+        justify-self: center;
+        width: 100%;
+    }
+
+    .col-dx {
+        width: 100%;
+    }
+}
 
 /*RESPONSIVE-BODY (only for Smartphone)*/
 
