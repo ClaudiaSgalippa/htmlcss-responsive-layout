@@ -31,6 +31,10 @@ body {
     height: auto;
 }
 
+.row {
+    display: flex;
+}
+
 .container {
     width: 70%;
     margin: 50px auto;
@@ -41,12 +45,19 @@ body {
 .col-sx {
     width: 70%;
     min-height: 150px;
+    border-style: dashed;
 }
 
 .col-dx {
     width: 30%;
     min-height: 150px;
+    border-style: dashed;
 }
+
+/*RESPONSIVE-BODY (only for Tablet)*/
+
+/*RESPONSIVE-BODY (only for Smartphone)*/
+
 
 /*FOOTER*/
 footer {
@@ -61,7 +72,6 @@ footer {
 .company {
     display: flex;
     flex-direction: column;
-    border-style: dashed;
     width: 50%;
     align-self: center;
     justify-content: end;
@@ -73,7 +83,6 @@ footer {
 
 .nav-aziendali {
     display: flex;
-    border-style: dashed;
     width: 50%;
     align-self: center;
     justify-content: end;
