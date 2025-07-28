@@ -15,6 +15,8 @@ header {
     padding-left: 15px;
 }
 
+/*RESPONSIVE-HEADER (only for Smartphone)*/
+
 @media screen and (max-width:480px) {
     header {
         text-align: center;
@@ -26,6 +28,7 @@ header {
 body {
     background-color: rgb(226, 226, 226);
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    height: auto;
 }
 
 .container {
@@ -47,7 +50,61 @@ body {
 
 /*FOOTER*/
 footer {
-    height: 75px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    color: white;
     background-color: #7C69A4;
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+    width: 50%;
+    align-self: center;
+    justify-content: end;
+}
+
+.copyright {
+    font-weight: bold;
+}
+
+.nav-aziendali {
+    display: flex;
+    border-style: dashed;
+    width: 50%;
+    align-self: center;
+    justify-content: end;
+}
+
+.company-faq {
+    display: flex;
+    column-gap: 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+
+/*RESPONSIVE FOOTER (Tablet & Smartphone)*/
+
+@media screen and (max-width:768px) {
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    .company {
+        width: auto;
+    }
+
+    .nav-aziendali {
+        width: auto;
+        justify-content: center;
+    }
 }
