@@ -63,9 +63,14 @@ body {
 }
 
 .col-dx {
+    display: block;
     width: 30%;
     min-height: 150px;
     border-style: dashed;
+}
+
+.col-dx li {
+    list-style-type: none;
 }
 
 /*Nav*/
@@ -104,6 +109,10 @@ body {
     
     .container {
         margin-inline: 20px;
+    }
+
+    .jumbotron {
+        width: 100%;
     }
 
     .row {
